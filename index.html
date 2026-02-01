@@ -3,12 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Gopal Pandit — Portfolio</title>
+  <title>Gopal Kumar Pandit </title>
   <script src="script.js"></script>
-  <meta name="description" content="Advanced portfolio of Gopal Kr. Pandit — Full-stack Engineer" />
   <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
 </head>
 <body>
+ <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-930GEV6WM4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-930GEV6WM4');
+  </script> 
+  
   <div class="container">
     <header class="site-header">
       <div class="brand">GP<span class="dot">.</span></div>
@@ -23,37 +32,41 @@
     <main>
       <section class="hero">
         <div class="hero-left">
-          <h1>Hello , I Am Gopal Kumar Pandit.</h1>
-          <p class="lead">Full‑stack engineer focused on realtime apps, performance, and developer experience.</p>
+          <div class="name">
+          <h1>Hello , I'm Gopal Kumar Pandit.</h1>
+          <p class="lead">A Junior Software Developer.</p></div>
 
           <div class="cta">
-            <a class="btn" href="#projects">View projects</a>
-            <a class="btn ghost" href="mailto:gopalkpandit07@gmail.com">Contact Me</a>
+            <a class="btn" href="#projects"><strong>View projects</strong></a>
+            <a class="btn ghost" href="mailto:gopalkpandit07@gmail.com"><strong>Contact Me</strong></a>
           </div>
 
           <ul class="stats">
             <li><strong></strong><span>HTML</span></li>
             <li><strong></strong><span>CSS</span></li>
-            <li><strong></strong><span>JS</span></li>
+            <li><strong></strong><span>JavaScript</span></li>
           </ul>
         </div>
 
         <div class="hero-right">
           <div class="card profile-card">
-            <img src="kali.jpg" alt="avatar">
+            
+            <img src="Photo/kali.jpg" alt="avatar">
+
             <div class="profile-info">
+              <div class="name">
               <h3>Gopal Kr. Pandit</h3>
-              <p class="muted">Junior Software Devloper</p>
+              </div>
+              <p class="muted">Junior Software Developer</p>
               <div class="socials">
-                <a href="#">GitHub</a><br>
-                <a href="#">LinkedIn</a>
+              
               </div>
             </div>
           </div>
 
           <div class="floating-cards">
-            <div class="mini-card">Websites:- <span>thestarboygp.ct.ws</span></div>
-            <div class="mini-card">Apps:- <span>Upcoming...</span></div>
+            <div class="mini-card"><strong>Websites:- </strong><span>thestarboygp.ct.ws</span></div>
+            <div class="mini-card"><strong>Apps:- </strong><span>Upcoming...</span></div>
             
           </div>
         </div>
@@ -65,7 +78,7 @@
 
         <div class="grid">
           <article class="project">
-            <img src="gp.jpg" alt="project">
+            <img src="Photo/gp.jpg" alt="project">
             <h3>Gopal's Portfolio :- Website </h3>
             <p> Click Here :-
             <a href="https://thestarboygp.ct.ws" target="_blank">thestarboygp.ct.ws</a> </p>
@@ -73,10 +86,12 @@
           </article>
 
           <article class="project">
-            <img src="https://via.placeholder.com/600x350.png?text=Project+2" alt="project">
-            <h3>Coming Soon...</h3>
-            <p>...</p>
-            <div class="tags"></div>
+            <img src="Photo/tt.jpeg" alt="project">
+            <h3>Todo List :- </h3>
+            <p>Click Here :- <a href="" target="_blank">Todo List</a></p>
+            <div class="tags"></div> 
+            <p>Collebrated & Developed By :- Gopal & Manish Murmu</p>
+            
           </article>
         </div>
       </section>
@@ -84,7 +99,7 @@
       <section id="about" class="section about">
         <div class="about-left">
           <h2>About Me</h2>
-          <p>I'm A Junior Software devloper. My Name is Gopal Kumar Pandit. I Am From Dumka, Jharkhand. I Study In Btech CSE From Jharkhand University Of Technolgy.  </p>
+          <p>I'm A Junior Software developer. My Name is Gopal Kumar Pandit. I Am From Dumka, Jharkhand. I Study In Btech CSE From Jharkhand University Of Technolgy.  </p>
 
           <h4>What I bring</h4>
           <ul>
@@ -109,24 +124,27 @@
         <p class="muted">Show Your Project And Any Doubt To Send Mesaage.</p>
 
         <div class="contact-grid">
-          <form id="contactForm" class="contact-form">
-            <label>Email <input type="email" name="email" required placeholder="name@dimain.com"></label>
-            <label>Message <textarea name="message" rows="6" columns="10" required placeholder="Tell me about your project..."></textarea></label>
-            <button type="submit" class="btn">Send message</button>
-          </form>
-
+          <div class="enquiry">
+            <contact-form>
+            <a href="https://forms.gle/UqRHTorHpTxwwgWU7">Google Form</a>
+          </div>
           <div class="contact-card card">
-            <h3>Say hi</h3>
-            <p>Email: <a href="mailto:you@example.com">gopalkpandit07@gmail.com</a></p>
-            <p>Location: India</p>
-            <div class="socials"><a href="#">GitHub</a> · <a href="#">LinkedIn</a></div>
+            <h3>Follow On Social-Media :- </h3>
+            <h5>Location: India</h5>
+           <div class="socials">
+  <a href="https://www.linkedin.com/in/gopal-kr-pandit-19587334a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://github.com/gopalkpandit" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://www.instagram.com/unique_boy_gp-?igsh=MTVmaDVuNmpxbTJhOA==" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com/share/1UQXtzuYFq/" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://t.me/addlist/CPLiaui2ROQxZTk1" target="_blank"><i class="fab fa-telegram"></i></a>
+  <a href="https://chat.whatsapp.com/KGY6qmycnwH4qFsyRa0uT1?mode=wwc" target="_blank"><i class="fab fa-whatsapp"></i></a></div>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© <span id="year"></span> Gopal Kr. Pandit — Built with HTML, CSS & JS</p>
+      <p><span id="year"></span> Gopal Kr. Pandit — Built with HTML, CSS & JS</p>
     </footer>
   </div>
 

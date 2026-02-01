@@ -24,7 +24,7 @@
   });
 
   // Lazy hover effect for project images (progressive enhancement)
-  document.querySelectorAll('.project').forEach(p => {
+  document.querySelectorAll('.projects').forEach(p => {
     p.addEventListener('mouseover', ()=> p.style.transform = 'translateY(-6px)');
     p.addEventListener('mouseout', ()=> p.style.transform = 'translateY(0)');
   });
